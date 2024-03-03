@@ -1,0 +1,31 @@
+{
+  "sqltools.connections": [
+    {
+      "mysqlOptions": {
+        "authProtocol": "default",
+        "enableSsl": "Disabled"
+      },
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 3306,
+      "driver": "MySQL",
+      "name": "admin",
+      "database": "go_admin",
+      "username": "root"
+    },
+    {
+      "mysqlOptions": {
+        "authProtocol": "default",
+        "enableSsl": "Disabled"
+      },
+      "previewLimit": 50,
+      "server": "admin.cte4j35uu5zy.ap-southeast-1.rds.amazonaws.com",
+      "port": 3306,
+      "driver": "MySQL",
+      "name": "myAWS",
+      "database": "admin",
+      "username": "admin",
+      "password": "passw0rddd"
+    }
+  ]
+}
